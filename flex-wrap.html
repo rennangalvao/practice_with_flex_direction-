@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex wrap</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            height: 150px;
+            border: 2px solid black;
+            max-width: 300px;
+        }
+
+
+        .item {
+            font-size: 24px;
+            height: 50%;
+            text-align: center;
+            min-width: 100px;
+            line-height: 50px;
+
+
+        }
+
+        .nowrap {
+            flex-wrap: nowrap;
+
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .blue {
+            background-color: blue;
+
+        }
+
+        .orange {
+            background-color: orange;
+
+        }
+
+        .green {
+            background-color: green;
+
+        }
+
+        .pink {
+            background-color: pink;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>No Wrap</h1>
+    <h6>Não quebra de linha</h6>
+    <div class="flex-container nowrap">
+        <div class="item blue">1</div>
+        <div class="item orange">2</div>
+        <div class="item green">3</div>
+        <div class="item pink">4</div>
+    </div>
+    
+    <h1>wrap</h1>
+    <h6>Quebra de linha</h6>
+    <p>Respeita o limite e quebra a linha, vaza caso preencha todo os espaço livre.</p>
+    <div class="flex-container wrap">            
+        <div class="item blue">1</div>
+        <div class="item orange">2</div>
+        <div class="item green">3</div>
+        <div class="item pink">4</div>
+
+    </div>
+
+    <h1>Wrap reverse</h1>
+    <h6>Inverte o fluxo</h6>
+    
+    <div class="flex-container wrap-reverse">            
+        <div class="item blue">1</div>
+        <div class="item orange">2</div>
+        <div class="item green">3</div>
+        <div class="item pink">4</div>
+</body>
+</html>
