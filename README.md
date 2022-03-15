@@ -35,7 +35,15 @@ Posicionando elementos com Flexbox em CSS
 * Space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
 
 # flex-grow
+
 Por padrão a flex-grow vem em 0, a class foi criada por questão de aprendizado.
+justify-content so so altera onde o flex-grow e zero Default;
+
+# flex-basis
+
+* auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+* px, % em, ...: são valores exatos previamente definidos
+* 0 (zero): terá relação com a definição do flex-grow
 
 
 
