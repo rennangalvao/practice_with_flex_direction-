@@ -45,6 +45,13 @@ justify-content so so altera onde o flex-grow e zero Default;
 * px, % em, ...: são valores exatos previamente definidos
 * 0 (zero): terá relação com a definição do flex-grow
 
+# flex-shrink
+
+È a propriedade que estabelecer a capacidade de redução ou compressão do tamanho de um item.
+
+
+
+
 
 
 
