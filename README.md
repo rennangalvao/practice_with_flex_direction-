@@ -1,6 +1,13 @@
 # practice_with_flex_direction
 Posicionando elementos com Flexbox em CSS
 
+# Diplay flex
+
+# Flex direction
+
+# Flex wrap
+
+# Flex flow
 
 # Justify Content
 
@@ -13,7 +20,7 @@ Posicionando elementos com Flexbox em CSS
 
 # Align-items
 * center: alinhamneto dos item ao centro
-* strech: padrão, e os flex itens cresçam igualmente.
+* stretch: padrão, e os flex itens cresçam igualmente.
 * flex-start: alinhamento dos itens no início.
 * flex-end: alinhamento do itens no final
 * baseline; alinhamento de acordo com a linha base da tipografia dos itens.
@@ -21,11 +28,14 @@ Posicionando elementos com Flexbox em CSS
 # Align-content
 
 * center: alinhamneto dos item ao centro
-* strech: padrão, e os flex itens cresçam igualmente.
+* stretch: padrão, e os flex itens cresçam igualmente.
 * flex-start: alinhamento dos itens no início.
 * flex-end: alinhamento do itens no final
 * Space-between: cria um espaçamento igual entre os elementos.
 * Space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+# flex-grow
+Por padrão a flex-grow vem em 0, a class foi criada por questão de aprendizado.
 
 
 
