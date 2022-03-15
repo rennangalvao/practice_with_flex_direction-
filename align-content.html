@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align-contet</title>
+
+    <style>
+        .container {
+            height: 350px;
+            max-width: 300px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: orange;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-items: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">stretch</h1>
+
+    <div class="container stretch">
+        <div class="item">Contrary to popular belief, Lorem Ipsum ismaking</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">not simply random text.</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">it over 2000 years old</div>
+    </div>
+
+    <h1 style="text-align: center;">center</h1>
+    
+    <div class="container center">
+        <div class="item">Contrary to popular belief, Lorem Ipsum ismaking</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">not simply random text.</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">it over 2000 years old</div>
+    </div>
+
+    <h1 style="text-align: center;">flex-start</h1>
+    
+    <div class="container flex-start">
+        <div class="item">Contrary to popular belief, Lorem Ipsum ismaking</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">not simply random text.</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">it over 2000 years old</div>
+    </div>
+
+    <h1 style="text-align: center;">flex-end</h1>
+    
+    <div class="container flex-end">
+        <div class="item">Contrary to popular belief, Lorem Ipsum ismaking</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">not simply random text.</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">it over 2000 years old</div>
+    </div>
+
+    <h1 style="text-align: center;">space-around</h1>
+    
+    <div class="container space-around">
+        <div class="item">Contrary to popular belief, Lorem Ipsum ismaking</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">not simply random text.</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">it over 2000 years old</div>
+    </div>
+
+    <h1 style="text-align: center;">space-between</h1>
+    
+    <div class="container space-between">
+        <div class="item">Contrary to popular belief, Lorem Ipsum ismaking</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">not simply random text.</div>
+        <div class="item">It has roots in a piece of classical</div>
+        <div class="item">Latin literature from 45 BC</div>
+        <div class="item">it over 2000 years old</div>
+        <div class="item">it over 2000 years old</div>
+    </div>
+
+</body>
+</html>
