@@ -49,6 +49,33 @@ justify-content so so altera onde o flex-grow e zero Default;
 
 È a propriedade que estabelecer a capacidade de redução ou compressão do tamanho de um item.
 
+# flex
+
+Esta propriedade é um atalho ou abriviação de escrita para as propriedades: grow, shrink e basis.
+
+# order 
+
+Ordernação do itens 
+
+
+# aling self
+
+È a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+-> VALORES POSSIVEIS <-
+* auto: valor padrão, irá respeitar a definião de align-items do container.
+
+* flex-start: ao início do container.
+* flex-end: ao final do container.
+* center: relativo ao centro de acordo com o eixo.
+* stretch: ocupa todo os espço relativo.
+* basiline: utiliza a linha base da tipografia.
+
+
+
+
+
+
+
 
 
 
