@@ -1,6 +1,4 @@
 # practice_with_flex_direction
-CSS lexbox
-
 
 Posicionando elementos com Flexbox em CSS
 
